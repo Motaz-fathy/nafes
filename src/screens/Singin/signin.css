@@ -1,0 +1,100 @@
+.min-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-body {
+    height: 80vh;
+    width: 100%;
+    margin: 15px 0 ;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* start left section sign in  */
+.sign-in-body .left  {
+    width: 40%;
+    height: 100%;
+}
+.sign-in-body .left .back-image {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.sign-in-body .left .back-image .image {
+    width: 100%;
+    height: 60%;
+    background-image: url('../../../public/images/Group\ 1264.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* end left section sign in  */
+
+
+
+/* start right section sign in  */
+
+.right {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.right > *{
+    text-align: end;
+}
+.right h2{
+   font-size: 18px;
+}
+.right p{
+    color: rgb(162, 160, 160);
+   font-size: 12px;
+
+ }
+ .right form {
+    width: 100%;
+    height: auto;
+    padding: 10px 0 ;
+    overflow: hidden;
+ }
+ .right form h5 {
+    margin-bottom: 10px;
+ }
+ .right form .email-error ,  .right form .password-error{
+    border: 1px solid red;
+ }
+
+ .right form > input {
+    width: 100%;
+ }
+ .error-text {
+    font-size: 10px;
+    color: red;
+ }
+ #email , #password{
+    background-color: #eff1f0;
+ }
+#btn-login {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* end right section sign in  */
+ 
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    .sign-in-body .left  {
+       display: none;
+    }
+    .sign-in-body .right {
+        width: 80%;
+    }
+  }

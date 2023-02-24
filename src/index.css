@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "GoldmanBold";
+  src: local("GoldmanBold"),
+   url("./fonts/ArbFONTS-Almarai-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family:  'GoldmanBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+span {
+  font-size: 12px;
+}
