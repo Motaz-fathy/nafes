@@ -1,21 +1,24 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { InputText } from "primereact/inputtext";
 import { Button } from 'primereact/button';
 import { useFormik } from "formik";
-
 import "./signin.css";
 import { loginSchema } from "../../schema";
 import { useDispatch, useSelector } from "react-redux";
 import {LoginAction} from '../../redux/actions/userAction'
 
-const onSubmit = () => {
-  window.location.href = '/user'
-}
+
  
 export const Signin = () => {
   const dispatch = useDispatch();
   const {user ,loading , error} = useSelector((state) => state.LoginReducer)
  
+
+  const onSubmit = ()  => {
+    
+      window.location.href = '/user'
+    
+  }
  
   const {values , handleChange , errors ,  handleBlur , handleSubmit  , touched} = useFormik({
     initialValues : {
@@ -65,7 +68,7 @@ export const Signin = () => {
              className={errors.password && touched.password ? "password-error" : ""}
             />
             <label className="error-text">{errors.password}</label>
-             <Button label="تسجيل الدخول" id="btn-login"/>
+             <Button label="تسجيل الدخول" id="btn-login" />
           </form>
         </section>
     </div>

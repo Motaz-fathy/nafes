@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className="container">
         <ul>
           <li>
-            <Link to="/"> <i className="pi pi-sign-out"></i> </Link>
+            <Link to="/nafes"> <i className="pi pi-sign-out"></i> </Link>
           </li>
           <li>
             <Link to="/user"><i className="pi pi-bell"></i></Link>

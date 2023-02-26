@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/nafes/static/css/main.972f7c05.css",
-    "main.js": "/nafes/static/js/main.7c4bd25d.js",
-    "static/js/787.7f352020.chunk.js": "/nafes/static/js/787.7f352020.chunk.js",
-    "static/media/Group 1264.png": "/nafes/static/media/Group 1264.d0b3899d7e34a307a598.png",
-    "static/media/primeicons.svg": "/nafes/static/media/primeicons.e1441b135b3ca9ad643c.svg",
-    "static/media/ArbFONTS-Almarai-ExtraBold.ttf": "/nafes/static/media/ArbFONTS-Almarai-ExtraBold.fd9b394b3a8673e07399.ttf",
-    "static/media/ArbFONTS-Almarai-Bold.ttf": "/nafes/static/media/ArbFONTS-Almarai-Bold.353c43cbea9e24d81c03.ttf",
-    "static/media/primeicons.eot": "/nafes/static/media/primeicons.d44157bdfa026dc877af.eot",
-    "static/media/primeicons.woff": "/nafes/static/media/primeicons.10d3152104f2208ac82a.woff",
-    "static/media/primeicons.ttf": "/nafes/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
-    "static/media/primeicons.woff2": "/nafes/static/media/primeicons.78172950b335ccdb94e2.woff2",
-    "static/media/nafes_plus_logo.png": "/nafes/static/media/nafes_plus_logo.2bbe37760128a90300a6.png",
-    "index.html": "/nafes/index.html",
-    "main.972f7c05.css.map": "/nafes/static/css/main.972f7c05.css.map",
-    "main.7c4bd25d.js.map": "/nafes/static/js/main.7c4bd25d.js.map",
-    "787.7f352020.chunk.js.map": "/nafes/static/js/787.7f352020.chunk.js.map"
+    "main.css": "/static/css/main.0e46d82b.css",
+    "main.js": "/static/js/main.d6cb194c.js",
+    "static/js/787.7f352020.chunk.js": "/static/js/787.7f352020.chunk.js",
+    "static/media/Group 1264.png": "/static/media/Group 1264.d0b3899d7e34a307a598.png",
+    "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/ArbFONTS-Almarai-ExtraBold.ttf": "/static/media/ArbFONTS-Almarai-ExtraBold.fd9b394b3a8673e07399.ttf",
+    "static/media/ArbFONTS-Almarai-Bold.ttf": "/static/media/ArbFONTS-Almarai-Bold.353c43cbea9e24d81c03.ttf",
+    "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/nafes_plus_logo.png": "/static/media/nafes_plus_logo.2bbe37760128a90300a6.png",
+    "index.html": "/index.html",
+    "main.0e46d82b.css.map": "/static/css/main.0e46d82b.css.map",
+    "main.d6cb194c.js.map": "/static/js/main.d6cb194c.js.map",
+    "787.7f352020.chunk.js.map": "/static/js/787.7f352020.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.972f7c05.css",
-    "static/js/main.7c4bd25d.js"
+    "static/css/main.0e46d82b.css",
+    "static/js/main.d6cb194c.js"
   ]
 }
