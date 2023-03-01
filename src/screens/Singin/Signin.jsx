@@ -33,11 +33,13 @@ export const Signin = () => {
     });
   };
 
-  const onSubmit = () => {
-    
+  const handleSubmit = (e) => {
+    e.preventDefault()
     if (user.status === true) {
       showSuccess();
       nav("/nafes/user");
+    
+
     } else {
       showError();
       nav("/nafes");
@@ -50,7 +52,6 @@ export const Signin = () => {
     handleChange,
     errors,
     handleBlur,
-    handleSubmit,
     touched
   } = useFormik({
     initialValues: {
@@ -58,7 +59,7 @@ export const Signin = () => {
       pass: ""
     },
     validationSchema: loginSchema,
-    onSubmit
+    
   });
 
   useEffect(
@@ -84,7 +85,7 @@ export const Signin = () => {
             والتدريب
           </p>
 
-          <form autoComplete="off" onSubmit={handleSubmit} method="POST">
+          <form autoComplete="off" onSubmit={handleSubmit} method="POST" >
             <h5>البريد الاكترونى</h5>
             <InputText
               value={values.email}

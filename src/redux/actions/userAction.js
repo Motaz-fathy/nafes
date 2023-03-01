@@ -21,7 +21,6 @@ export const LoginAction = (email, pass) => async dispatch => {
       { email, pass},
       config
     );
-    console.log(data)
     dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
     localStorage.setItem("user", JSON.stringify(data));
   } catch (error) {
