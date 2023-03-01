@@ -8,7 +8,7 @@ import {
 // get courses list 
 
 const url = "https://nafes.app/cv_task/api/course_list.php?userId=2211";
-export const CoursesList = () => async dispatch => {
+export const CoursesListAction = () => async dispatch => {
     try {
       dispatch({ type: COURSES_REQUEST });
       const config = {

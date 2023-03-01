@@ -4,17 +4,18 @@ import { SaidBar } from "../../component/SaidBar/SaidBar";
 
 import "./profile.css";
 import { useDispatch, useSelector } from "react-redux";
-import { CoursesList } from "../../redux/actions/CoursesAction";
+import { CoursesListAction } from "../../redux/actions/CoursesAction";
 export const Profile = () => {
   const displatch = useDispatch();
 
   const GetCoursesReducer = useSelector(state => state.GetCoursesReducer);
 
-  const {user : {courseList}} = GetCoursesReducer
-  console.log(courseList)
+  const {user} = GetCoursesReducer
+
+  console.log(user?.courseList)
   useEffect(
     () => {
-      displatch(CoursesList());
+      displatch(CoursesListAction());
     },
     [displatch]
   );
@@ -27,15 +28,18 @@ export const Profile = () => {
               <div className="container">
                 
               {
-              courseList?.map(course => 
+              user?.courseList.map((course) =>(
                 <div className="sub" key={course.id}>
-                <div className="head"></div>
+                <div className="head">
+                  <img src={`https://nafes.app/cv_task/res/course/imgs/${course.icon}`}/>
+                </div>
                 <div className="title">
                   <span>
                     {course.name}
                   </span>
                 </div>
               </div>
+              )               
               )
              }
                 
