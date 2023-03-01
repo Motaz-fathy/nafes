@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/nafes" exact element={<Signin />} />
-          <Route path="/user" exact element={<Profile />} />
+          <Route path="/nafes/user"  element={<Profile />} />
         </Routes>
         <Footer />
       </Router>

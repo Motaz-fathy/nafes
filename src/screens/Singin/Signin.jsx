@@ -26,7 +26,7 @@ const showError = () => {
     
      if(user.status === true) {
       showSuccess()
-      window.location.href = '/user'
+      window.location.href = '/nafes/user'
      }    
      else {
       showError()

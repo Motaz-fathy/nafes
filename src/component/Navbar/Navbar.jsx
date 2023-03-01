@@ -11,10 +11,10 @@ export const Navbar = () => {
             <Link to="/nafes"> <i className="pi pi-sign-out"></i> </Link>
           </li>
           <li>
-            <Link to="/user"><i className="pi pi-bell"></i></Link>
+            <Link to="/nafes/user"><i className="pi pi-bell"></i></Link>
           </li>
           <li>
-            <Link to="/user"><i className="pi pi-comments"></i></Link>
+            <Link to="/nafes/user"><i className="pi pi-comments"></i></Link>
           </li>
         </ul>
 
