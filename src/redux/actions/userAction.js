@@ -7,20 +7,21 @@ import {
 
 
 // login
-const url = "user.json";
-export const LoginAction = (password, email) => async dispatch => {
+const url = "https://nafes.app/cv_task/api/login.php";
+export const LoginAction = (email, pass) => async dispatch => {
   try {
     dispatch({ type: USER_LOGIN_REQUEST });
     const config = {
       headers: {
-        "Content-Type": "application/json"
+        "Content-type": "application/x-www-form-urlencoded"
       }
     };
-    const { data } = await axios.post(
+    const  {data}  = await axios.post(
       `${url}`,
-      { password, email },
+      { email, pass},
       config
     );
+    console.log(data)
     dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
     localStorage.setItem("user", JSON.stringify(data));
   } catch (error) {

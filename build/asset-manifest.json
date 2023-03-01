@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nafes/static/css/main.972f7c05.css",
-    "main.js": "/nafes/static/js/main.c6630cad.js",
+    "main.js": "/nafes/static/js/main.673b373e.js",
     "static/js/787.7f352020.chunk.js": "/nafes/static/js/787.7f352020.chunk.js",
     "static/media/Group 1264.png": "/nafes/static/media/Group 1264.d0b3899d7e34a307a598.png",
     "static/media/primeicons.svg": "/nafes/static/media/primeicons.e1441b135b3ca9ad643c.svg",
@@ -14,11 +14,11 @@
     "static/media/nafes_plus_logo.png": "/nafes/static/media/nafes_plus_logo.2bbe37760128a90300a6.png",
     "index.html": "/nafes/index.html",
     "main.972f7c05.css.map": "/nafes/static/css/main.972f7c05.css.map",
-    "main.c6630cad.js.map": "/nafes/static/js/main.c6630cad.js.map",
+    "main.673b373e.js.map": "/nafes/static/js/main.673b373e.js.map",
     "787.7f352020.chunk.js.map": "/nafes/static/js/787.7f352020.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.972f7c05.css",
-    "static/js/main.c6630cad.js"
+    "static/js/main.673b373e.js"
   ]
 }
